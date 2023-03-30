@@ -50,6 +50,7 @@
     }
 }
 
+// imageの表示設定
 .box-image-left>.up {
 
     @include mq(md) {
@@ -118,6 +119,7 @@
     }
 }
 
+// imageの標示設定
 .box-image-right>.up {
 
     @include mq(md) {
