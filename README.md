@@ -1,7 +1,7 @@
-画像をコピペ
+<img width="1083" alt="image" src="https://user-images.githubusercontent.com/99580997/228951016-87c6b5ad-ca0a-4146-94bb-ae1a8d6e7821.png">
 
 # compornent（共通部品）
-- 説明
+- box-image-right&left（カードタイプのボックス。画像を左右配置可能。gridで単純にdirection:rtl or ltl）したら、テキストの句読点の位置が想定通りにならないので、これを作成。）
 
 # w3c html/css ck
 - confirmed or unconfirmed
