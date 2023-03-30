@@ -2,6 +2,8 @@
 
 // box-image-left
 .box-image-left {
+    margin-bottom: rem(50);
+
     @include mq(md) {
         display: grid;
         grid-template-columns: 1fr 1fr 10%;
@@ -17,7 +19,6 @@
 
     @include mq(md) {
         display: none;
-        text-align: center;
     }
 }
 
@@ -26,6 +27,15 @@
 
     @include mq(md) {
         display: block;
+        text-align: center;
+    }
+}
+
+.box-image-left>ul>li>h3 {
+    text-align: center;
+
+    @include mq(md) {
+        // 
     }
 }
 
@@ -73,6 +83,8 @@
 
 // box-image-right
 .box-image-right {
+    margin-bottom: rem(50);
+
     @include mq(md) {
         display: grid;
         grid-template-columns: 10% 1fr 1fr;
@@ -88,7 +100,6 @@
 
     @include mq(md) {
         display: none;
-        text-align: center;
     }
 }
 
@@ -97,6 +108,15 @@
 
     @include mq(md) {
         display: block;
+        text-align: center;
+    }
+}
+
+.box-image-right>ul>li>h3 {
+    text-align: center;
+
+    @include mq(md) {
+        // 
     }
 }
 
